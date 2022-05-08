@@ -1,0 +1,14 @@
+:root {
+  font-size: 62.5%;
+  --color-1: #ffaf87;
+  --color-2: #ff8e72;
+  --color-3: #ed6a5e;
+  --color-4: #4ce0b3;
+  --color-5: #377771;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
