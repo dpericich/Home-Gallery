@@ -11,4 +11,39 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  position: relative;
+}
+
+.home-btn {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  z-index: 10;
+  width: 12.5rem;
+  height: 12.5rem;
+  background-color: var(--color-4);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-btn:active {
+  transform: scale(0.98);
+}
+
+.home-btn > a,
+.home-btn > a {
+  z-index: 11;
+  display: inline-block;
+  color: var(--color-3);
+  text-align: none;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.home-btn > a:hover,
+.home-btn > a:active {
+  color: var(--color-2);
 }
