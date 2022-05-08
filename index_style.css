@@ -54,13 +54,14 @@ header {
   font-size: 2rem;
 }
 
-.cta-section {
+.tour {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   height: 20rem;
   font-size: 4rem;
+  background-color: var(--color-5);
 }
 
 .cta-button,
@@ -81,6 +82,15 @@ header {
 
 .cta-button:active {
   transform: translateY(0.5rem);
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  font-size: 4rem;
 }
 
 footer {
@@ -110,7 +120,12 @@ footer {
     font-size: 1.25rem;
   }
 
-  .cta-section {
+  .tour {
+    height: 10rem;
+    font-size: 2rem;
+  }
+
+  .gallery {
     height: 10rem;
     font-size: 2rem;
   }
