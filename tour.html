@@ -17,15 +17,16 @@
     <!-- Display a marker on my screen and use the camera on my phone to read it -->
     <a-scene embedded arjs>
         <a-assets>
-            <a-asset-item src="dog.jpeg" id="dog-image"></a-asset-item>
+            <!-- <a-asset-item src="dog.jpeg" id="dog-image"></a-asset-item> -->
+            <img src="dog.jpeg" id="dog-image" />
         </a-assets>
 
         <!-- <a-marker type="pattern" preset="custom" url="marker.php">
             <a-marker type="barcode" value="7"></a-marker> -->
         
         <a-marker-camera preset='hiro'>
-            <!-- <a-image src="#dog-image" width="10" height="10"></a-image> -->
-            <a-box position='0.5 0.5 0' material='opacity: 1;' color="red"></a-box>
+            <a-image src="#dog-image" width="10" height="10"></a-image>
+            <!-- <a-box position='0.5 0.5 0' material='opacity: 1;' color="red"></a-box> -->
         </a-marker-camera>
 
         <!-- <a-marker type="pattern" url="path/to/file.patt"> -->
